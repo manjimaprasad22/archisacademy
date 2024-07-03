@@ -1,0 +1,155 @@
+
+.login-detail{
+    padding: 0px 100px;
+}
+.forgot-detail{
+    padding: 0px 100px;
+    margin-top: 150px;
+}
+.google{
+    padding: 10px;
+    /* border-radius: 10px; */
+    background-color: #d44235;
+    border: none;
+    margin-bottom: 40px;
+}
+.google:hover{
+    background-color: #d44235;
+    border: none;
+}
+.google:active{
+    background-color: #d44235;
+    border: none;
+}
+.custom-hr{
+    border-top: 1px solid !important;
+    opacity: unset;
+}
+.logininput{
+    border: none;
+    background-color: transparent;
+    /* border-bottom: 1px solid; */
+    padding: 10px;
+}
+.button-container {
+    gap: 10px; /* Adjust the gap as needed */
+
+}
+.login-button, .login-button:hover{
+    background: var(--bg, linear-gradient(94deg, #001f60 0%, #1c49a6 33.82%, #4a70d0 64.66%, #ff3e94 100%));
+    color: #fff;
+    border-radius: 36px;
+    font-weight: 700;
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    padding: 15px 30px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin-bottom: 5px;
+}
+.create-button, .create-button:active, .create-button:hover{
+    background: white;
+    color: navy;
+    border-radius: 36px;
+    font-weight: 700;
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    padding: 15px 30px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid navy;
+}
+
+.forgot{
+    text-align: right;
+    font-size: medium;
+    color: #a3a3a3;
+    padding: 30px 0;
+}
+.forgot a{
+
+    font-size: medium;
+    color: #a3a3a3;
+
+}
+.privacy{
+    color: rgba(85, 85, 85, 0.6);
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.logo{
+    display: block; /* Center image within the block */
+    margin: 0 auto; /* Center the image horizontally */
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.left-animation {
+    position: relative; /* Required for the pseudo-element positioning */
+    background: var(--bg, linear-gradient(94deg, #001f60 0%, #1c49a6 33.82%, #4a70d0 64.66%, #ff3e94 100%));
+    height: 600px;
+    overflow: hidden; /* Ensure pseudo-element does not overflow */
+    margin: 40px;
+    border-radius: 25px;
+    color: white;
+}
+.left-animation::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(54, 54, 54, 0.5), rgba(57, 57, 57, 0.5)); /* Dark gradient */
+    pointer-events: none; /* Allows clicking through the pseudo-element */
+}
+.left-text1{
+    position: relative;
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    z-index: 1;
+    padding-left: 60px;
+}
+.left-text2{
+    position: relative;
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    z-index: 1;
+    padding-left: 60px;
+}
+.left-text3{
+    position: relative;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    z-index: 1;
+    margin-top: 80px;
+    padding: 60px;
+}
+.error{
+    color: red;
+    font-size: small;
+}
+.create-button-1, .create-button-1:hover{
+    background: white;
+    color: navy;
+    border-radius: 36px;
+    font-weight: 700;
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid navy;
+    margin: 20px 0;
+}
+.align-right {
+    text-align: right;
+}
